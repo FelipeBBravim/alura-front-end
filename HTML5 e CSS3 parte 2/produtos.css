@@ -1,11 +1,11 @@
 header {
     background: #BBBBBB;
-    padding: 20px 0;
+    padding: 20px 20px;
 }
 
 .caixa {
     position: relative;
-    width: 940px;
+    width: 100%;
     margin: 0 auto 0 auto;
 }
 
@@ -34,6 +34,10 @@ nav a {
     padding: 50px 0;
 }
 
+.produtos li img {
+    width: 100%;
+}
+
 .produtos li {
     display: inline-block;
     text-align: center;
@@ -42,6 +46,7 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid #000;
 }
 
 .produtos h2 {
