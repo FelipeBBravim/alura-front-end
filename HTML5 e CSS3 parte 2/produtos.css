@@ -5,8 +5,8 @@ header {
 
 .caixa {
     position: relative;
-    width: 100%;
-    margin: 0 auto 0 auto;
+    width: 940px;
+    margin: 0 auto;
 }
 
 nav {
@@ -32,6 +32,7 @@ nav a {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
+    display: flex;
 }
 
 .produtos li img {
@@ -47,6 +48,7 @@ nav a {
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000;
+    border-radius: 10px;
 }
 
 .produtos h2 {
@@ -62,5 +64,5 @@ nav a {
 .produto-preco {
     font-size: 22px;
     font-weight: bold;
-    margin: 10px 0 0;
+    margin: 10px;
 }
